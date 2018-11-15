@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="한국 체질량 지수 계산"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#62a7fc"
+        />
+    <!--이 간판은 자바에서 객체화시킬 필요가 없으니 id필요없다-->
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="키 입력(cm)"
+        />
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="몸무게 입력(kg)"
+        />
+    <Button
+        android:id="@+id/resBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="결과 확인하기"
+        android:textSize="30dp"
+        android:background="#7192ff"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="결과 : "
+        android:textSize="30dp"
+        android:background="#7173f9f0"
+        />
+
+</LinearLayout>
